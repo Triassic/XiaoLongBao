@@ -1,4 +1,4 @@
-XiaoLongBao - MVCCC
+XiaoLongBao
 ===========
 
 Development

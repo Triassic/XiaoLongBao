@@ -6,5 +6,5 @@
           <input type="checkbox" value="remember-me"> 記住我
         </label>
         <button class="btn btn-lg btn-primary btn-block" type="submit">登錄</button>
-        <button class="btn-block"><a href="<?php echo base_url(); ?>index.php/pages/login/signuppage">註冊帳號</a></button>
+        <a href="<?php echo base_url(); ?>index.php/pages/login/signuppage" class="btn btn-primary btn-lg btn-block" role="button">註冊帳號</a>
       </form>

@@ -77,8 +77,15 @@ class Worship extends CI_Controller
 	
 	private function generate_verses($ranges)
 	{
-	  $xml = Bible::getVerses($ranges);
-	  $quoted_verses = '';
+		$xml = "";
+	  try {
+	  	$xml = Bible::getVerses($ranges);
+	  } catch(Exception $e) {
+	  	$xml = "";
+	  }
+	  $quoted_verses = "";
+	  if ($xml === "") return $quoted_verses;
+	  
 	  foreach ($xml->range as $range)
 	  {
 	    // get range title

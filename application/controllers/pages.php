@@ -1,5 +1,4 @@
 <?php
-
 /**
   * A controller for the public accessible pages.
   */

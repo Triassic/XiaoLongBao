@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-lg-12 well">
       <ol class="breadcrumb">
-        <li><a href="<?php echo site_url().'/pages/prayer'?>">禱告事項</a></li>
+        <li><a href="<?php echo site_url().'/prayer/prayerList'?>">禱告事項</a></li>
         <li class="active"><a href="#">禱告歷史</a></li>
       </ol>
 

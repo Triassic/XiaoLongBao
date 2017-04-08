@@ -13,12 +13,13 @@ class Prayer extends Pages {
         $this->load->helper('url');
         $this->load->helper('form');
         $this->load->model('prayer_model', 'prayerData');
+        $this->load->library("pagination");
     }
 
     /**
       * Loads prayer page.
       */
-    public function prayerList($lang = 'ch')
+    public function prayerList($date = '', $lang = 'ch')
     {
         // TODO: make a helper function for login check
         if (!Access::hasPrivilege(Access::PRI_READ_PRAYER))
@@ -31,13 +32,18 @@ class Prayer extends Pages {
             // Whoops, we don't have a page for that!
             show_404();
         }
-        $data['scripture'] = $this->prayerData->get_latestScripture();
-        $data['items'] = $this->prayerData->get_latestPrayerItems();        
+        if ($date === '') {
+          $data['scripture'] = $this->prayerData->get_latestScripture();
+          $data['items'] = $this->prayerData->get_latestPrayerItems();
+        } else {
+          $data['scripture'] = $this->prayerData->get_scripture($date);
+          $data['items'] = $this->prayerData->get_prayerItems($date);
+        }
         $this->loadHeader($lang);
         $this->load->view($lang.'/request/prayerlist', $data);
         $this->load->view('templates/footer');
     }
-    
+
     /**
      * Loads prayer page.
      */
@@ -60,11 +66,11 @@ class Prayer extends Pages {
             if ( ! file_exists('application/views/'.$lang.'/request/addprayer.php'))
         	{
             	// Whoops, we don't have a page for that!
-            	show_404();          	
+            	show_404();
         	}
         	$this->loadHeader($lang);
         	$this->load->view($lang.'/request/addprayer', $data);
-        	$this->load->view('templates/footer');        	
+        	$this->load->view('templates/footer');
         }
         else
         {
@@ -79,10 +85,10 @@ class Prayer extends Pages {
 
             // Redirect to event page.
             $url = site_url()."/prayer/prayerList";
-            redirect($url, 'location', 302);          
+            redirect($url, 'location', 302);
         }
     }
-    
+
     /**
       * Loads prayer history page.
       */

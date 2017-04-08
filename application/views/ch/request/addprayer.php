@@ -7,7 +7,7 @@
 				accept-charset="utf-8"
 				action="<?php echo site_url() .'/prayer/addprayer/'  ?>">
 				<div class="prayscripture">
-				  <h5>禱告經文</h5>
+				  <h5>同聲朗讀經文</h5>
 				  <textarea class="textbox-prayscripture" name="scripture"><?php echo set_value('scripture'); ?></textarea>
 				</div>
 				<?php

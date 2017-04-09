@@ -56,6 +56,12 @@ class Worship extends CI_Controller
 	  }
 	  
 	  $data['video'] = $this->video->get_video($id);
+	  $data['video_url'] = "";
+	  if ($this->config->item('prod')) {
+	  	$data['video_url'] = "/videos/".$data['video']['file_name'];
+	  } else {
+	  	$data['video_url'] = "/videos_dev/".$data['video']['file_name'];
+	  }
 
 	  // check privilege to see Paster Hou's message
 	  if ($data['video']['speaker'] == '侯君麗牧師' && !Access::isLoggedIn())

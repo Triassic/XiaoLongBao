@@ -1,0 +1,24 @@
+1. login as root/***
+cmd line: mysql -u root -p ****
+workbench+MAMP: localhost:8889@root/root
+
+2. create database:
+create database mvdb1;
+show databases;
+
+3. create dba users and grant privileges:
+create user 'mvdba'@'localhost' identified by 'Dba!mvdb1';
+create user 'mvdba'@'%' identified by 'Dba!mvdb1';
+
+grant all privileges on mvdb1.* to 'dba'@'localhost' with grant option;
+grant all privileges on mvdb1.* to 'dba'@'%' with grant option;
+flush privileges;
+
+
+Reference:
+http://dev.mysql.com/doc/refman/5.1/en/adding-users.html
+
+
+
+
+

@@ -1,0 +1,47 @@
+1. login as root/***
+cmd line: mysql -u root -p ****
+workbench+MAMP: localhost:8889@root/root
+
+2. create database:
+create database mvdb1;
+show databases;
+
+3. create dba users and grant privileges:
+create user 'mvdba'@'localhost' identified by 'Dba!mvdb1';
+create user 'mvdba'@'%' identified by 'Dba!mvdb1';
+
+grant all privileges on mvdb1.* to 'dba'@'localhost' with grant option;
+grant all privileges on mvdb1.* to 'dba'@'%' with grant option;
+flush privileges;
+
+4. if need another database for test or backup:
+create database mvdb2;
+show databases;
+grant all privileges on mvdb2.* to 'dba'@'localhost' with grant option;
+grant all privileges on mvdb2.* to 'dba'@'%' with grant option;
+flush privileges;
+
+5. create app users and grant privileges:
+create user 'xiaolongbao'@'localhost' identified by 'woaichi';
+create user 'xiaolongbao'@'%' identified by 'woaichi';
+grant insert, select, update, delete on mvdb1.* to 'xiaolongbao'@'localhost';
+grant insert, select, update, delete on mvdb1.* to 'xiaolongbao'@'%';
+flush privileges;
+
+Now we have 3 users: 
+root - do everything, typically for database creation.
+mvdba - do everything on mvdb1, typically for table creation.
+xiaolongbao - do select/insert/update/delete on mvdb1 tables, apps use this account to connect.
+
+To check grants for each user:
+show grants for 'dba'@'localhost';
+
+Need to restart database server to get those accounts take effect.
+
+Reference:
+http://dev.mysql.com/doc/refman/5.1/en/adding-users.html
+
+
+
+
+

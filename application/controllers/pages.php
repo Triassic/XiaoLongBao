@@ -30,6 +30,13 @@ class Pages extends CI_Controller {
 
 		$this->load->model('video_model', 'video');
 		$data['video'] = $this->video->get_last_video(Access::isLoggedIn());
+		
+		$data['video_url'] = "";
+		if ($this->config->item('prod')) {
+			$data['video_url'] = "/videos/".$data['video']['file_name'];
+		} else {
+			$data['video_url'] = "/videos_dev/".$data['video']['file_name'];
+		}
 
 		$this->load->library('javascript_plugins');
 		$plugins = $this->javascript_plugins;

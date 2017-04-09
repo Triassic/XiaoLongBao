@@ -109,7 +109,7 @@
         </div>
         <div class="col-lg-1"></div>
             <div class="col-lg-6">
-              <a href="<?php echo base_url(); ?>/videos/<?php echo $video['file_name']; ?>"
+              <a href="<?php echo base_url(); ?><?php echo $video_url; ?>"
                 style="display: block; width: 425px; height: 300px;" id="player"
                 player-src="<?php echo base_url(); ?>/assets/plugin/flowplayer/flowplayer-3.2.18.swf">
                 </a>

@@ -33,9 +33,9 @@ class Pages extends CI_Controller {
 		
 		$data['video_url'] = "";
 		if ($this->config->item('prod')) {
-			$data['video_url'] = "/videos/".$data['video']['file_name'];
+			$data['video_url'] = "videos/".$data['video']['file_name'];
 		} else {
-			$data['video_url'] = "/videos_dev/".$data['video']['file_name'];
+			$data['video_url'] = "videos_dev/".$data['video']['file_name'];
 		}
 
 		$this->load->library('javascript_plugins');

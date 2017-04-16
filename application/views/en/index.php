@@ -14,16 +14,16 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="mvccc-slides" src="<?php echo base_url()?>/assets/img/slides/001.jpg" alt="First slide"/>
+                        <img class="mvccc-slides" src="<?php echo base_url()?>/gallery/home/001.jpg" alt="First slide"/>
                         <div class="mvccc-slides-text">Welcome to MVCCC</div>
                         <div class="carousel-caption">First Slide</div>
                     </div>
                     <div class="item">
-                        <img class="mvccc-slides" src="<?php echo base_url()?>/assets/img/slides/002.jpg" alt="Second slide"/>
+                        <img class="mvccc-slides" src="<?php echo base_url()?>/gallery/home/004.jpg" alt="Second slide"/>
                         <div class="carousel-caption">Second Slide</div>
                     </div>
                     <div class="item">
-                        <img class="mvccc-slides" src="<?php echo base_url()?>/assets/img/slides/003.jpg" alt="Third slide"/>
+                        <img class="mvccc-slides" src="<?php echo base_url()?>/gallery/home/003.jpg" alt="Third slide"/>
                         <div class="carousel-caption">Third Slide</div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
             <p class="text-center mvccc-h4">
                 <span style="font-family:GuYin">WORSHIP: </span><span style="color: #254117">10:00 AM SUNDAY</span>
             </p>
-            <p class="text-center">175 East Dana Street, Mountain View, CA 94041 | Tel (650) 964-1591 </p> 
+            <p class="text-center">175 East Dana Street, Mountain View, CA 94041 | Tel (650) 964-1591 </p>
             <hr class="mvccc-hr">
         </div>
     </div>

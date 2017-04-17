@@ -1,9 +1,9 @@
-<div class="row well">
+<div class="container">
   <div class="col-lg-12">
     <h2>Welcome to Intersect at MVCCC!</h2>
     <p><i>
     We are the English Congregation of Mountain View Chinese Christian Church (MVCCC) which is an independent, evangelical, non-denominational church.
-    A predominantly second generation Asian American congregation, our members include jr. high and high school students, young adults (college and 
+    A predominantly second generation Asian American congregation, our members include jr. high and high school students, young adults (college and
     working adults), young families (parents with infants and toddlers), and older fmilies (parents of our college-aged students).
 	</i></p>
 	<p><i>

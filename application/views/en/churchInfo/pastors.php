@@ -1,10 +1,10 @@
-<div class="row well">
+<div class="container">
 	<div class="col-lg-12">
  		<div class="page-header">
 			<h1>Our Staff</h1>
 		</div>
 		<?php
-			foreach ($pastors as $key => $pastor) 
+			foreach ($pastors as $key => $pastor)
 			{
 				$imgName = $pastor['img'];
 				$imgPath = '';

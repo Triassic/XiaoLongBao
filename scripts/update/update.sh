@@ -37,6 +37,7 @@ mv ${WEBHOME}/application ${BACKUP_HOME}/application
 mv ${SRC_UNZIP}/application ${WEBHOME}/application
 
 echo "Restoring configuration <br>"
+cp -rf ${BACKUP_HOME}/config/config.php ${CONF}
 cp -rf ${BACKUP_HOME}/config/database.php ${CONF}
 
 echo "Backup and setup assets <br>"

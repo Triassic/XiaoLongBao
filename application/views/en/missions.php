@@ -79,11 +79,7 @@
     <hr>
     <table class="table table-striped table-hover">
       <tbody>
-        <tr><td>Christian Mountain Children's Home Kaohsiung Taiwan</td></tr>
-        <tr><td>Go and Love Foundation</td></tr>
-        <tr><td>Partners International</td></tr>
-        <tr><td>CASA Central Asia Sharing Aid</td></tr>
-        <tr><td>Europe Campus Ministries</td></tr>
+        <tr><td>Myanmar Holy Word Seminary</td></tr>
       </tbody>
     </table>
   </div>

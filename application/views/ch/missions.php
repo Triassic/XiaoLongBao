@@ -80,11 +80,7 @@
       <hr>
       <table class="table table-striped table-hover">
         <tbody>
-          <tr><td>高雄縣私立基督教山地育幼院</td></tr>
-          <tr><td>傳仁基金會</td></tr>
-          <tr><td>國際福音協傳會</td></tr>
-          <tr><td>中亞分享援助協會吉爾吉斯</td></tr>
-          <tr><td>歐洲校園事工</td></tr>
+          <tr><td>緬甸聖道神學院</td></tr>
         </tbody>
       </table>
     </div>

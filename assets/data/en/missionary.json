@@ -13,150 +13,80 @@
 		"img"			: "",
 		"desc"			: ""
 		},
-	"3" : {
+	"2" : {
 		"name" 			: "Edward & Rachel Aw",
 		"organization" 	: "Community Vision International (CVI)",
 		"country" 		: "India",
 		"img" 			: "",
 		"desc" 			: ""
 		},
-	"4" : {
-		"name" 			: "Chen Hong & Su Qi",
-		"organization" 	: "Gospel Operation International for Christians (GO)",
-		"country" 		: "East Asia",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"5" : {
+	"3" : {
 		"name" 			: "Rev. Edward Chow",
 		"organization" 	: "China Evangelistic Mission, Inc.",
 		"country" 		: "East Asia",
 		"img" 			: "RevChow.jpg",
 		"desc" 			: "<p>Rev. Edward Chow was born in Shanghai in 1939. His family was from Swatow in Guangdong.  In 1957 Edward immigrated to Hong Kong where he had a chance of hearing the gospel.  In 1962 he received the Lord Jesus Christ as his Savior and was baptized in that year.  Since then he devoted himself to serving the Lord in church.  In 1975 Edward, together with Rev. Paul Kuo, established the『China Evangelistic Mission』 to evangelize to the Chinese Refugee Village in Northern Thailand.  Meanwhile Edward continued his jewelry business to support the organization. In 1982 Edward responded to the call of our Lord to full-time ministry.  He closed his jewelry business and studied full-time at the Evangel Seminary in Hong Kong.  In 1985 he earned his Bachelor of Theology degree. After graduation, Edward immigrated to the State, had further studies at the Denver Baptist Seminary in Colorado.  He earned his Master of Arts in New Testament Studies in 1988. In 1989 he was ordained at the Stillwater Chinese Baptist Church in Oklahoma, where he served for five years.</p><p>In 1992 Rev. Edward Chow established the 『Chinese Discipleship International』 and served as the General Director.  Its missions were evangelism in creative access nation and church planting in the States.  As the director, Rev. Chow led disciple training, evangelical and revival meetings in Chinese churches in Europe, Australia and Hong Kong.  In June 2001 the 『Chinese Discipleship International』 decided that the churches it planted in the States should become independent churches, and the mission work overseas should be integrated into the ministries of the 『China Evangelistic Mission』.  In October 2001, Rev. Edward chow joined the 『China Evangelistic Mission』 as a missionary in creative access nation, leading discipleship training and church planting. </p><p>Rev. Chow was married to Suk-Hing in Hong Kong in 1967.  They have a son, a daughter and a granddaughter.  They all live in Denver, Colorado.</p>"
 		},
-	"6" : {
-		"name" 			: "Ms. Sioe Lie Kam",
-		"organization" 	: "Chinese Christian Mission USA (CCM)",
-		"country" 		: "Macau",
-		"img" 			: "MsLydiaKam.jpg",
-		"desc" 			: "<p>Ms. Kam received Christ in Indonesian. After her studies in Malaysia Theological Seminary, she returned to serve in her church. After several years, she entered Alliance Bible Seminary in Hong Kong for further studies. In 1989, she became a CCM missionary and is stationed in Macao.In 1995, Ms. Kam joined the Macao Industrial Evangelistic Fellowship and, in cooperation with brothers and sisters from Hong Kong, is sharing the gospel through bookstands and computer classes.</p><p>Mission Goals:   1) Build up believer's faith growth; 2) Establish a stable fellowship group in different districts.</p><p>Mission Contents:     1) Arrange Sunday worship service; 2) Lead bible study, provide counseling, and visit fellowship members; 3) Arrange lunch meal for workers and share message; 4) Maintain the contact with home-returned workers and their follow-up works. 5) Arrange co-worker pray meeting, 6) Host short-term mission teams.</p><ul>How can we participate in Ms. Kam's mission?<li>1. Pray for her works</li><li>2. Visit the Macao Industrial Evangelistic Fellowship</li><li>3. Join short-term mission and help in bible teaching, technical skill training, and caring.</li></ul>"
-		},
-	"7" : {
+	"4" : {
 		"name" 			: "Rev. & Mrs. Steven Ho",
 		"organization" 	: "Gospel Operation International for Christians (GO)",
 		"country" 		: "Thailand",
 		"img" 			: "RevStevenHo.jpg",
 		"desc" 			: "<p>Rev. Stephen Ho graduated from Overseas Theological Seminary in Hong Kong and also holds a MA. in Old Testament from Wheaton Graduate School and a second MA. in Hebrew and Semitic Studies from Wisconsin University, Madison. Rev. Ho also earned his D. Miss. from Western Seminary. Rev. Ho has pastored in Hong Kong, Philippines and Madison, Wisconsin for several years.  He later joined the Foreign Missions Department of CCM. In 1995, Rev. Ho, together with a group of co-workers who shared the same vision on missions, founded Gospel Operation International (GOI), which is an entirely Chinese, missions organization. Rev. Ho and his wife Jenny are now living in Thailand. Rev. Ho is the Deputy International Director in charge of Field Ministries with Jenny as his assistant. Jenny is also assisting the development of university campus ministry in Thailand. Please for the field supervision and caring ministries of Stephen in various mission fields the campus ministry of Jenny that they may walk in the will of God.</p>"
 		},
-	"8" : {
+	"5" : {
 		"name" 			: "YanRu Lee",
-		"organization" 	: "OMF",
-		"country" 		: "OMF Thailand ChiangMai Chruch Planting",
+		"organization" 	: "OMF Thailand ChiangMai Chruch Planting",
+		"country" 		: "Thailand",
 		"img" 			: "",
 		"desc" 			: ""
 		},
-	"9" : {
+	"6" : {
 		"name" 			: "Rev. & Mrs. Simon Lau",
 		"organization" 	: "Partners International",
 		"country" 		: "Taiwan",
 		"img" 			: "RevSimonLau.jpg",
 		"desc" 			: "<p>Rev. Lau is the General Secretary of Dawn organization in Taiwan and devotes himself to Christian ministries to stop drug abuse. In the Sunday sermon at our church in 1993, Rev. Lau shared the wonder God had done in his life in freeing him from the enslavement of drug addiction and elevating him to the princely position of co-heir with Christ.</p><p>For many years, God has abundantly provided for several \"Counseling Villages\" and Training Centers in Taiwan to train pastors, Christian social workers, and brothers and sisters planning to serve in Christian drug abatement ministries. Family counseling hot line has also been set up to help drug users and their family members.  Rev. Lau also edited a publication Dawn quarterly and had led a team of drug abatement campaigners to Thailand and Burma to assist local governments in eradicating drug abuse problems.</p>"
 		},
-	"10" : {
-		"name" 			: "Mr.&Mrs.Todd and Vanessa Avera",
-		"organization" 	: "Campus Crusade for Christ",
-		"country" 		: "East Asia",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"11" : {
-		"name" 			: "TJ Hsieh",
-		"organization" 	: "AEF Social Innovation Association",
-		"country" 		: "",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"12" : {
-		"name" 			: "Hung-Chi Yao",
-		"organization" 	: "Operation Dawn Gospel",
-		"country" 		: "San Jose, USA",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"13" : {
+	"8" : {
 		"name" 			: "Bill/Julisa Rowe",
 		"organization" 	: "Artist in Christian Testimony",
 		"country" 		: "Kenya, Africa",
 		"img" 			: "RoweFamily.jpg",
 		"desc" 			: "<p>The Rowes' work is to bring revival to the African church and transform society by integrating God's Word into the people's core, so that it is the foundation of their attitudes and actions.  We do this through culturally meaningful drama, music and worship, training teams, pastors and leaders in these various art forms, always working toward their effective communication of the Good News.  Our base is in Nairobi, Kenya, working with Daystar University and extending to other church and mission organizations to train in discipleship and evangelism using culturally meaningful drama and music.  We also empower them to reach out effectively to their own cultures and to areas closed to Western missionaries. </p><p>In our 3 years in Kenya we have held numerous short courses in drama and music, training around 200 lay leaders and pastors in these areas.  With teams we have trained we have also performed for thousands (in workshops and church services) through traveling drama teams and local church teams.  One of our most meaningful achievements is the Images Drama Project, which uses drama to help heal those affected by the post-election violence in 2007 and encourage the integration of Scripture into every part of the lives of Christians here.</p>"
 		},
-	"14" : {
+	"9" : {
 		"name" 			: "Scott/Ruthie Clark",
 		"organization" 	: "Wycliffe Bible Translator",
 		"country" 		: "Cameron, Africa",
 		"img" 			: "",
 		"desc" 			: ""
 		},
-	"15" : {
-		"name" 			: "John Tsai",
-		"organization" 	: "Central Asia Sharing Aid (CASA)",
-		"country" 		: "Kyrgyzstan",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"16" : {
-		"name" 			: "Matt & Ruth Lee",
-		"organization" 	: "Inter Varsity",
-		"country" 		: "UC Davis, USA",
-		"img" 			: "MattRuthLee.jpg",
-		"desc" 			: "<p>Matt and Ruth Lee currently serve with InterVarsity Christian Fellowship at UC Davis.  InterVarsity exists to see students and faculty transformed, the university campus renewed, and to help develop world changers. This vision is pursued by building witnessing communities of men and women who are growing in love for God and who are mobilized to reach out to others on campus. When people join an InterVarsity group, they are taught to study the Bible; they receive leadership training; and they experience a variety of mission opportunities - all in the context of a culturally and ethnically diverse campus.</p><p>Matt has served full time with InterVarsity and is currently the co-team leader for the group at Davis.  Ruth has volunteered with InterVarsity for the past four years and co-leads Real World, InterVarsity ministry that prepares graduating seniors to transition well into the post college/early career years.  Matt and Ruth say of the ministry, \"We both count it a privilege to be able to walk along side of and invest in so many students at Davis.  We are overjoyed as we see God using the ministry to raise up the next generation of leaders grow them in their desire to see His kingdom come and His will be done on earth as it is in heaven.\"</p>"
-		},
-	"17" : {
-		"name" 			: "Rev. Jackson Chien-Ming Lee ",
-		"organization" 	: "The Evangelical Alliance Mission (TEAM)",
-		"country" 		: "East Asia & South East Asia",
-		"img" 			: "RevJacksonLee.jpg",
-		"desc" 			: "<p>Reverend Lee majored in Chemistry, came to the States and became a successful entrepreneur. He sought Qi-Gong as a cure to his allergy and stomach bloat. Qi-Gong appeared to be helpful to him in the first year. But he encountered many miserable events there after. It turned out evil spirits attached him as he was practicing Qi-Gong. On May 12 1991 he prayed in the name of Jesus Christ and four evil spirits were exorcised from him. When he confessed his sins to Jesus, our Lord cured his skin allergies and diabetes what Qi-Gong couldn't help. Reverend and Mrs. Lee have been affiliated with TEAM (The Evangelical Alliance Mission) and have been applying materials published by TEE (Theological Education by Extension) in leadership training in China, Taiwan and Malaysia. They have led over 1400 people to the Lord, baptized over 100 people. Their prayers to the Lord is, \"to make all grace abound to you, so that in all things at all times, having all that you need, you will abound in every good work, and will enlarge the harvest of your righteousness. You will be made rich in every way so that you can be generous on every occasion, and through us your generosity will result in thanksgiving to God.\"</p>"
-		},
-	"18" : {
+	"10" : {
 		"name" 			: "Chin Choon Lim",
 		"organization" 	: "Far East Broadcasting Co. Ltd. (FEBC)",
-		"country" 		: "",
+		"country" 		: "USA",
 		"img" 			: "",
 		"desc" 			: ""
 		},
-	"19" : {
-		"name" 			: "Luke Zhang ",
-		"organization" 	: "The Sowers International",
-		"country" 		: "",
-		"img" 			: "",
-		"desc" 			: ""
-		},
-	"20" : {
+	"11" : {
 		"name" 			: "Jonathan Chiu",
 		"organization" 	: "USA Care Ministries International",
 		"country" 		: "Cambodia",
 		"img" 			: "RevChiu.jpg",
 		"desc" 			: "<p>Rev. Jonathan Chiu was born in China and grew up in Taiwan.  He graduated from National Taiwan University in 1964. He joined Campus Crusade for Christ in Taiwan in January, 1966.  He was appointed to be the National Director of Campus Crusade for Christ in 1976 and served in that position until April 1989.  While serving with CCC in Taiwan, Rev. Chiu was active in nationwide evangelistic campaigns such as \"Here's Life\" (1977) and Evangelism '80. He was Chairman for CCOWE Committee in Taiwan (1976-1989) and Lausanne Committee member representing Taiwan (1986-1989). Rev. Chiu was also the Senior Pastor of the Bible Baptist Taipei Tabernacle Church from 1976-1989. </p><p>Rev. Chiu and his family moved from Taiwan to the United States in 1989. He served as the Senior Pastor of the Atlanta Chinese Christian Church in Atlanta, GA from June, 1989 to August, 2002.  He is now the General Director of the USA Care Ministries International.</p>"
 		},
-	"21" : {
-		"name" 			: "Rev. & Mrs. Thomas Wang",
+	"12" : {
+		"name" 			: "Rev. Mrs. Thomas Wang",
 		"organization" 	: "Great Commission Center International (GCCI)",
 		"country" 		: "USA",
 		"img" 			: "RevWang.jpg",
 		"desc" 			: "<p>Rev. Thomas Wang was the speaker for our First Missions Conference in 1993.  Rev. Wang founded the Chinese Christian Mission ( CCM ) and has successively held the posts of General Secretary of Chinese Coordination Center of World Evangelism, International Director of  Lausanne Committee for World Evangelization, International Chairman of AD 2000 and Beyond Movement.  He was the President of Great Commission Center International ( GCCI ) until 2008.</p><p>GCCI serves as a catalyst to encourage the deepening of spirituality in Chinese churches, to impel Chinese pastors to become mission-mobilizing leaders, and to involve Chinese Christians in missions leading to Chinese churches becoming the base for missions operations.  GCCI moved to San Francisco Bay area in 2001.</p><p>Moved by the Holy Spirit, Rev. Wang felt an increasing burden in his heart on the spiritual direction of the USA, his second hometown. Almost every year during the past 30 years, Rev. Wang would write to the leaders of the American society calling for their attention to revive the country spiritually. Recently, he went further by editing and published the book, \"America, Return to God\". 450,000 copies have been given to all levels of the leaders and members of the society. Through the love of Christ, he is reminding people in America not to forget that the country was founded on Christian principles. He is asking the people to repent and go back to the religion of their ancestors.</p>"
 		},
-	"22" : {
-		"name" 			: "Rev. & Mrs. Morley Lee",
-		"organization" 	: "Chinese Coordination Centre of World Evangelism (CCCOWE)",
-		"country" 		: "USA",
-		"img" 			: "RevLee.jpg",
-		"desc" 			: "<p>Pastor Morley and Sophie Lee grew up in both China & Taiwan.  They were married after college and both served with Campus Evangelical Fellowship in Taiwan for 14 years.  They attended Discipleship Training Center in Singapore (sponsored by OMF) in the late 60.  In 1981, they studied at Wheaton College Graduated School in Chicago to take further training.</p><p>From the spring of 1977 to the end of 1994, Pastor Lee served as senior pastor at Chinese Bible Church of Greater Boston ( CBCGB) for 18 years.</p><p>Started form 1995, they were sent out as missionaries by CBCGB and joined Christian Mission Overseas (CMO).  They had been promoting cross-cultural missions mainly in South East Asia.  Rev. Lee was General Secretary and Field Director of CMO for 6 years.</p><p>Presently, they rejoined Campus Evangelical Fellowship U. S. A./Overseas Campus Magazine to work among the Chinese intellectuals to equip them to be missionaries for God Kingdom.  Pastor Lee is now the Director of Overseas Ministries Department.</p><ul>Present ministries:<li>Promote vision of World Missions among the Chinese Churches.</li><li>Training Chinese intellectuals to be true disciples of Jesus Christ.</li><li>Provide training materials for Mission.</li><li>Establish Mission Prayer Fellowships.</li><li>Prepare Mission Conferences to recruit and equip missionaries.</li></ul>"
-		},
-	"23" : {
-		"name" 			: "Rev. David Chen",
-		"organization" 	: "Christian Witness Theological Seminary",
-		"country" 		: "USA",
+	"13" : {
+		"name" 			: "Rev. Peter Pan",
+		"organization" 	: "",
+		"country" 		: "Taiwan",
 		"img" 			: "",
 		"desc" 			: ""
 		}

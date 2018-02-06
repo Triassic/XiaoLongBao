@@ -11,7 +11,7 @@
 	"1"	: {
 		"name"		: "Junli Hou",
 		"position"	: "Rev.",
-		"title" 	: "Associate pastor in Chinese Congregation",
+		"title" 	: "Pastor in Chinese Congregation",
 		"status"	: "current",
 		"img"		: "pastorhou.png",
 		"email"		: "pastorjunli@gmail.com",
@@ -20,7 +20,7 @@
 	"2"	: {
 		"name"		: "Youwan Kang",
 		"position"	: "Rev.",
-		"title" 	: "Associate pastor in English Congregation",
+		"title" 	: "Pastor in English Congregation",
 		"status"	: "current",
 		"img"		: "ministerkang.jpg",
 		"email"		: "youwan@gmail.com",
@@ -28,29 +28,11 @@
 	},
 	"3"	: {
 		"name"		: "Patrick Yao",
-		"position"	: "Mr.",
-		"title" 	: "Assistant pastor in Youth Ministry",
+		"position"	: "Rev.",
+		"title" 	: "Pastor in Youth Ministry",
 		"status"	: "current",
 		"img"		: "ministeryao.jpg",
 		"email"		: "pyaoliang@gmail.com",
 		"desc"		: "Minister Patrick Yao has been serving as Youth Minister at MVCCC since August 2006. Hailing from St. Louis, MO, he graduated from Covenant Theological Seminary and has been serving in youth ministry for eight years. He and his wife, Gloria, have been married for 5 years and have two beautiful daughters, Adelaide Kara and Eliana Praise. Aside from ministry, he loves tech gadgets, playing sports, and rooting for the St. Louis Cardinals."
-	},
-	"4"	: {
-		"name"		: "Guo Cheng",
-		"position"	: "reverend",
-		"title" 	: "",
-		"status"	: "previous",
-		"img"		: "pastorcheng.jpg",
-		"email"		: "",
-		"desc"		: ""
-	},
-	"5"	: {
-		"name"		: "DaoMing Tan",
-		"position"	: "reverend",
-		"title" 	: "顧問牧師",
-		"status"	: "previous",
-		"img"		: "pastortan.jpg",
-		"email"		: "",
-		"desc"		: ""
 	}
 }

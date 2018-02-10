@@ -74,13 +74,36 @@
     </table>
     <br>
     <br>
-    <h2>Evangelical Organizations</h2>
-    The evangelical organizations we support:
+    <h2>Seminary Students</h2>
     <hr>
     <table class="table table-striped table-hover">
       <tbody>
         <tr><td>Myanmar Holy Word Seminary</td></tr>
       </tbody>
     </table>
+    <h2>Evangelical Organizations</h2>
+    <hr>
+    <table class="table table-striped table-hover">
+      <tbody>
+        <tr><td>CASA</td></tr>
+        <tr><td>Europe Campus Ministry</td></tr>
+        <tr><td>Go and Love Foundation</td></tr>
+        <tr><td>Chista</td></tr>
+      </tbody>
+    </table>
+    <h2>Christian Publications</h2>
+    <hr>
+    <table class="table table-striped table-hover">
+      <tbody>
+        <tr><td>Ambassadors for Christ, Inc.</td></tr>
+        <tr><td>CCM: Chinese Today</td></tr>
+        <tr><td>Daily Bread</td></tr>
+        <tr><td>Great Commission Center International</td></tr>
+        <tr><td>Go International</td></tr>
+        <tr><td>Herald Monthy</td></tr>
+        <tr><td>Life Quarterly</td></tr>
+        <tr><td>Overseas Campus</td></tr>
+      </tbody>
+    <table>
   </div>
 </div>

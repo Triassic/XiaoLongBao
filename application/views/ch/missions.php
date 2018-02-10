@@ -75,12 +75,38 @@
       </table>
       <br>
       <br>
-      <h2>福音機構</h2>
-      我們所支持的福音機構
+      <h2>神學院及學生</h2>
+      我們所支持的神學院及學生。
       <hr>
       <table class="table table-striped table-hover">
         <tbody>
           <tr><td>緬甸聖道神學院</td></tr>
+        </tbody>
+      </table>
+      <h2>福音機構</h2>
+      我們所支持的福音機構。
+      <hr>
+      <table class="table table-striped table-hover">
+        <tbody>
+          <tr><td>中亞分享援助協會吉爾吉斯</td></tr>
+          <tr><td>歐洲校園事工</td></tr>
+          <tr><td>傳仁基金會</td></tr>
+          <tr><td>海外中國學生事工聯合會</td></tr>
+        </tbody>
+      </table>
+      <h2>文字事工</h2>
+      我們所支持的文字事工。
+      <hr>
+      <table class="table table-striped table-hover">
+        <tbody>
+          <tr><td>使者雜誌(基督使者協會)</td></tr>
+          <tr><td>中信月刊(中國信徒佈道會)</td></tr>
+          <tr><td>每日靈糧</td></tr>
+          <tr><td>大使命雙月刊(大使命中心)</td></tr>
+          <tr><td>崋傳路(華人福音普傳會)</td></tr>
+          <tr><td>號角(角聲佈道會)</td></tr>
+          <tr><td>生命季刊</td></tr>
+          <tr><td>海外校園</td></tr>
         </tbody>
       </table>
     </div>

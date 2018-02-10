@@ -1,6 +1,6 @@
 <div class="container">
     <div class="col-lg-12">
-        <div class="page-header">   
+        <div class="page-header">
             <h1>聚會時間</h1>
         </div>
         <h2>主日敬拜時間</h2>
@@ -16,16 +16,5 @@
             </tbody>
         </table>
         <div class="mvccc-schedule" data-stellar-background-ratio="0.3" style="background-position: 50% 63.5px;"></div>
-        <h2>禱告會</h2>
-        <hr>
-        <table class="table table-striped table-hover">
-            <thead><tr><th>時間</th><th>地點</th></tr></thead>
-            <tbody>
-                <tr><td style="width: 30%">每主日 10:00am</td><td>教會</td></tr>
-                <tr><td style="width: 30%">每週三 08:00pm</td><td>教會</td></tr>
-                <tr><td style="width: 30%">每週三 08:00pm</td><td>徐 鵬弟兄家</td></tr>
-                <tr><td style="width: 30%">每週三 08:00pm</td><td>李世登弟兄的音樂學院</td></tr>
-            </tbody>
-        </table>
     </div>
 </div>

@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); 
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 Class Bible {
 
@@ -75,12 +75,12 @@ Class Bible {
 
   const REQUEST_URL = 'http://api.preachingcentral.com/bible.php?';
   const VERSION = 'union-traditional';
-  
+
   static function getArrayTitles()
   {
     return self::$catalog;
   }
-  
+
   static function getChTitle($engTitle, $abbr = true)
   {
     if ($abbr)
@@ -127,10 +127,10 @@ Class Bible {
 
     return $ranges;
   }
-  
+
   /**
    * Given ranges, e.g. "John 3:1-3, 5", returns a parsed SimpleXMLElement object $xml.
-   * 
+   *
    * For each $xml->range
    * $xml->range->result is the title "John 3:1-3" for this range
    * $xml->range->item->text is the verses
@@ -140,12 +140,11 @@ Class Bible {
   {
     // send a REST request and get XML response
     $url = self::REQUEST_URL . 'passage=' . urlencode($ranges) . '&version=' . self::VERSION;
+
     $content = @file_get_contents($url);
-    
+
     // Parse the XML into a SimpleXML object
     $xml = new SimpleXMLElement($content);
     return $xml;
   }
-  
-  
 }

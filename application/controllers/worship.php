@@ -4,7 +4,7 @@
   * A controller for the Sunday worship videos.
   * CHINESE ONLY
   */
-class Worship extends CI_Controller 
+class Worship extends CI_Controller
 {
 	function __construct()
 	{
@@ -41,12 +41,12 @@ class Worship extends CI_Controller
 
 	  $data['videos'] = $this->video->get_sunday_videos($config["per_page"], $page, $includePasterHou);
 	  $data["links"] = $this->pagination->create_links(); // TODO, make it looks better
-	  
+
 	  $this->load->view('templates/header_'.$lang);
 	  $this->load->view($lang.'/worship/worship', $data);
 	  $this->load->view('templates/footer');
 	}
-	
+
 	public function video($id = NULL)
 	{
 	  if ( ! file_exists('application/views/ch/worship/video.php'))
@@ -54,7 +54,7 @@ class Worship extends CI_Controller
 	    // Whoops, we don't have a page for that!
 	    show_404();
 	  }
-	  
+
 	  $data['video'] = $this->video->get_video($id);
 	  $data['video_url'] = "";
 	  if ($this->config->item('prod')) {
@@ -70,29 +70,33 @@ class Worship extends CI_Controller
 	  }
 
 	  $ranges = $data['video']['scripture'];
+
 	  $data['verses'] = $this->generate_verses($ranges);
 
 	  $this->load->library('javascript_plugins');
 	  $plugins = $this->javascript_plugins;
 	  $footer_data['js_plugins'] = $plugins->generate(array($plugins::FlowPlayer));
-	  
+
 	  $this->load->view('templates/header_ch');
 	  $this->load->view('ch/worship/video', $data);
 	  $this->load->view('templates/footer', $footer_data);
 	}
-	
+
 	private function generate_verses($ranges)
 	{
 		$xml = "";
 	  try {
-	  	$xml = Bible::getVerses($ranges);
+
+			// FIXME:
+	  	// $xml = Bible::getVerses($ranges);
+	  	$xml = "";
 	  } catch(Exception $e) {
 	  	log_message('error', "error getting verse: ".$e);
 	  	$xml = "";
 	  }
 	  $quoted_verses = "";
 	  if ($xml === "") return $quoted_verses;
-	  
+
 	  foreach ($xml->range as $range)
 	  {
 	    // get range title
@@ -100,7 +104,7 @@ class Worship extends CI_Controller
 	    $title = Bible::convertEngRangesToCh($title);
 
 	    $quoted_verses .= " <br><b>".$title."</b><br><br>";
-	    
+
 	    // get verses in this range
 	    foreach($range->item as $item)
 	    {
@@ -111,7 +115,7 @@ class Worship extends CI_Controller
 
 	  return $quoted_verses;
 	}
-	
+
 	public function audio($id = NULL)
 	{
 	  if ( ! file_exists('application/views/ch/worship/audio.php'))
@@ -119,24 +123,24 @@ class Worship extends CI_Controller
 	    // Whoops, we don't have a page for that!
 	    show_404();
 	  }
-	   
+
 	  $data['video'] = $this->video->get_video($id);
-	  
+
 	  // check privilege to see Paster Hou's message
 	  if ($data['video']['speaker'] == '侯君麗牧師' && !Access::isLoggedIn())
 	  {
 	    show_404();
 	  }
-	  
+
 	  $this->load->library('javascript_plugins');
 	  $plugins = $this->javascript_plugins;
 	  $footer_data['js_plugins'] = $plugins->generate(array($plugins::FlowPlayer));
-	   
+
 	  $this->load->view('templates/header_ch');
 	  $this->load->view('ch/worship/audio', $data);
 	  $this->load->view('templates/footer', $footer_data);
 	}
-	
+
 	public function direct_download($file)
 	{
 	  $file_url = base_url().'/audios/'.$file;
@@ -163,7 +167,7 @@ class Worship extends CI_Controller
 	    // TODO: show authentication error.
 	    show_404();
 	  }
-	
+
 	  if ( ! file_exists('application/views/'.$lang.'/worship/addSundayMessage.php'))
 	  {
 	    // Whoops, we don't have a page for that!
@@ -215,7 +219,7 @@ class Worship extends CI_Controller
 	    // Whoops, we don't have a page for that!
 	    show_404();
 	  }
-	
+
 	  $this->load->library('form_validation');
 	  $this->load->library('validation_rules');
 	  $rules = $this->validation_rules;

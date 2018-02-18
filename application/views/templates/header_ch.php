@@ -83,11 +83,9 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">教會生活<b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="<?php echo site_url(); ?>/pages/fellowships">團契生活</a></li>
-                <li><a href="<?php echo site_url(); ?>/pages/activities/sundaySchoolAdults">成人牧區</a></li>
-                <li><a href="<?php echo site_url(); ?>/pages/activities/sundaySchoolKids">兒童牧區</a></li>
+                <li><a href="<?php echo site_url(); ?>/pages/activities/sundaySchoolAdults">成人主日學</a></li>
+                <li><a href="<?php echo site_url(); ?>/pages/activities/sundaySchoolKids">兒童主日學</a></li>
                 <li><a href="<?php echo site_url(); ?>/pages/awana/introduction">AWANA</a></li>
-                <li><a href="<?php echo site_url(); ?>/pages/activities/choir">教會詩班</a></li>
-                <li><a href="#">信仰討論</a></li>
               </ul>
             </li>
             <li><a href="<?php echo site_url(); ?>/events/eventList">日歷活動</a></li>
@@ -111,7 +109,7 @@
                 printf('<li><a href="%s">差傳事工</a></li>', site_url()."/pages/missions");
                 printf('</ul>');
                 printf('</li>');
-              } 
+              }
             ?>
           </ul>
         </div><!-- /.nav-collapse -->

@@ -7,7 +7,7 @@
                     <b>主日崇拜</b><br>
                     <b>日歷活動</b><br>
                     <b>AWANA</b><br>
-                    
+
                 </div>
                 <div class="col-lg-3">
                     <h3>資源中心</h3>
@@ -31,7 +31,7 @@
                         <span>傳真</span> 650-964-8491<br>
                 </div>
             </div>
-    	   <p>&copy; MVCCC 2014</p>
+    	   <p>&copy; MVCCC 2014-2018</p>
         </div>
     </footer>
     <!-- Bootstrap core JavaScript

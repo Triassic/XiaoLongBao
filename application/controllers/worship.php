@@ -86,7 +86,7 @@ class Worship extends CI_Controller
 	{
 		$xml = "";
 	  try {
-      $xml = Bible::getVerses($ranges);
+      // $xml = Bible::getVerses($ranges);
 	  } catch(Exception $e) {
 	  	log_message('error', "error getting verse: ".$e);
 	  	$xml = "";

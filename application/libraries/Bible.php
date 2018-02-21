@@ -140,11 +140,16 @@ Class Bible {
   {
     // send a REST request and get XML response
     $url = self::REQUEST_URL . 'passage=' . urlencode($ranges) . '&version=' . self::VERSION;
+    
+    log_message("info", "requesting bible api: " . $url );
 
     $content = @file_get_contents($url);
 
     // Parse the XML into a SimpleXML object
     $xml = new SimpleXMLElement($content);
+    
+    log_message("info", "bible api response: " . $content);
+    
     return $xml;
   }
 }

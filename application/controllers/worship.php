@@ -35,7 +35,7 @@ class Worship extends CI_Controller
 	  $config = array();
 	  $config["base_url"] = site_url()."/worship/page";
 	  $config["total_rows"] = $this->video->get_video_count(true, $includePasterHou);
-	  $config["per_page"] = 5;
+	  $config["per_page"] = 50;
 
 	  $this->pagination->initialize($config);
 

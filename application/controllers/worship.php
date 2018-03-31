@@ -140,17 +140,20 @@ class Worship extends CI_Controller
 
 	public function direct_download($file)
 	{
-	  $file_url = base_url().'/audios/'.$file;
+	  $file_path = 'audios/'.$file;
 
-	  if ( ! file_exists('audios/'.$file))
+	  if ( ! file_exists($file_path))
 	  {
 	    show_404();
 	  }
-
+	  
+	  $file_size = filesize($file_path);
+	  
 	  header ("Content-type: octet/stream");
 	  header ("Content-disposition: attachment; filename=".$file.";");
-	  header ("Content-Length: ".filesize($file));
-	  readfile($file_url);
+	  header ("Content-Length: ".$file_size);
+	  
+	  readfile($file_path);
 	  exit;
 	}
 

@@ -11,7 +11,7 @@
     <div class="row">
       <div class="col-lg-4">
         <div id="scroll_panel">
-          <?php echo $verses; ?>
+        	<?php echo $verses; ?>
         </div>
       </div>
       <div class="col-lg-8">
@@ -24,3 +24,4 @@
     </div>
   </div>
 </div>
+

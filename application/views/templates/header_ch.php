@@ -46,7 +46,7 @@
         }
         ?>
         <li class="devider"></li>
-        <li><a href="<?php echo site_url(); ?>/pages/index/en">English</a>
+        <li><a href="http://www.intersect-mvccc.org">English</a>
         </li>
       </ul>
     </div>
@@ -73,7 +73,7 @@
                 <li><a href="<?php echo site_url(); ?>/pages/church/faith-statement">信仰告白</a></li>
                 <li><a href="<?php echo site_url(); ?>/pages/pastors">教牧同工</a></li>
                 <li><a href="<?php echo site_url(); ?>/pages/church/schedule">聚會時間</a></li>
-                <li><a href="#">事工部門</a></li>
+                <li><a href="<?php echo site_url(); ?>/pages/church/team">事奉團隊</a></li>
                 <li><a href="<?php echo site_url(); ?>/pages/church/history">教會歷史</a></li>
                 <li><a href="<?php echo site_url(); ?>/pages/church/contact">聯係我們</a></li>
               </ul>

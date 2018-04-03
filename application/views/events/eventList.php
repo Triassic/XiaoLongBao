@@ -12,7 +12,7 @@
                         {
                             $url = site_url() . "/events/createEvent/" . $lang;
                             printf('<li><a href="%s">%s</a></li>', $url, $this->lang->line('button_create'));
-                        } 
+                        }
                     ?>
                 </ul>
             </div>
@@ -22,7 +22,7 @@
         </div>
 
         <?php
-            foreach ($events as $key => $event) 
+            foreach ($events as $key => $event)
             {
                 $category = $event['category'];
                 $categoryLabel = "label-info";
@@ -33,7 +33,6 @@
 
                 # Get the weekday name from timestamp.
                 $dateTime = DateTime::createFromFormat('Y-m-d', $event['date']);
-                $dateTime->setTimeZone(new DateTimeZone("America/Los_Angeles"));
                 # $dateTime->setTimestamp($event['timestamp']);
                 $weekDay  = $dateTime->format('D');
 
